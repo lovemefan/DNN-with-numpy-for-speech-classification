@@ -21,20 +21,13 @@ $a^{(l+1)}_{i} = f(z^{(l+1)}_{i}) $
 
 
 
-## 1.2 mnist手写数字数据集
+## 1.2 ESC-50 语音分类数据集
 
-下载数据集http://yann.lecun.com/exdb/mnist/
+下载数据集https://github.com/karoldvl/ESC-50/archive/master.zip
 
 其中有四个文件：
 
-
-* train-images-idx3-ubyte.gz: training set images (9912422 bytes)`
-* train-labels-idx1-ubyte.gz: training set labels (28881 bytes)
-* t10k-images-idx3-ubyte.gz:  test set images (1648877 bytes)
-* t10k-labels-idx1-ubyte.gz:  test set labels (4542 bytes)
-
-
-数据集中有60000个训练集，10000个测试集
+数据集中有2000个样本
 
 
 
