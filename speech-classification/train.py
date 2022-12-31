@@ -38,7 +38,7 @@ if __name__ == '__main__':
             with open('parameters.pkl', 'rb') as file_to_read:
                 # 通过pickle的load函数读取data1.pkl中的对象，并赋值给data2
                 parameters = pickle.load(file_to_read)
-    parameters = None
+
     # 初始化模型参数
     model = Model(args, parameters)
     dataLoader = DataLoader(args.data)
